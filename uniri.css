@@ -1,0 +1,61 @@
+/* @theme uniri */
+@import-theme 'default';
+section {
+  background-color: #f7f7f7;
+  color: #292929;
+  padding: 10px;
+}
+h1 {
+  color: #009ee0;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #173753;
+}
+section.lead {
+  background-color: #0082b8;
+  color: #f7f7f7;
+  padding-left: 50%;
+}
+section.lead h1 {
+  font-size: 2rem;
+  color: #f7f7f7;
+}
+section.lead ul.owners {
+  list-style-type: none;
+  padding-left: 0;
+}
+section.lead ul.owners li {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+section.lead ul.owners li.removed {
+  text-decoration: line-through;
+}
+section.lead ul.owners li::before {
+  display: inline-block;
+  padding-right: 0.5ch;
+  color: #15324c;
+}
+section.lead ul.owners li[data-author]::before {
+  content: "autor:";
+}
+section.lead ul.owners li[data-mentor]::before {
+  content: "mentor:";
+}
+section.lead::before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  width: 40%;
+  aspect-ratio: 1/1;
+  background: url("./assets/fidit-logo-light.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,67 @@
+/* @theme uniri */
+
+color-light = #f7f7f7
+color-dark = #292929
+color-primary = #009ee0
+color-primary-darker = #0082b8
+color-secondary = #173753
+color-secondary-darker = #15324c
+
+@import-theme 'default'
+
+section
+    background-color color-light
+    color color-dark
+    padding 10px
+
+h1
+    color color-primary
+h2,h3,h4,h5,h6
+    color color-secondary
+
+section.lead
+    background-color color-primary-darker
+    color color-light
+    padding-left 50%
+
+    h1
+        font-size 2rem
+        color color-light
+
+    
+    ul.owners
+        list-style-type none
+        padding-left 0
+
+        li
+            text-decoration none
+            font-size 1.2rem
+
+        li.removed
+            text-decoration line-through
+
+        li::before
+            display inline-block
+            padding-right 0.5ch
+            color color-secondary-darker
+
+        li[data-author]::before
+            content "autor:"
+            
+        li[data-mentor]::before
+            content "mentor:"
+
+    &::before
+        display block
+        content ""
+        position absolute
+        left 10%
+        top 50%
+        width 40%
+        aspect-ratio 1 / 1
+        background url(./assets/fidit-logo-light.svg)
+        background-repeat no-repeat
+        background-size contain
+        transform translateY(-50%)
+
+    
