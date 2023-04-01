@@ -7,17 +7,125 @@ color-primary-darker = #0082b8
 color-secondary = #173753
 color-secondary-darker = #15324c
 
+border-padding = 1ch
+
+text-size-huge = 2.2em
+text-size-large = 1.2em
+text-size-normal = 1em
+text-size-small = 0.8em
+text-size-tiny = 0.6em
+
+text-size-h1 = text-size-huge
+text-size-h2 = 1.8em
+text-size-h3 = 1.6em
+text-size-h4 = 1.4em
+text-size-h5 = text-size-large
+text-size-h6 = 1.1em
+
 @import-theme 'default'
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&display=swap');
 
 section
     background-color color-light
     color color-dark
-    padding 10px
+    padding 4rem 2rem 2.2rem 2rem
+    align-items stretch
+    line-height 1.3rem
 
-h1
-    color color-primary
-h2,h3,h4,h5,h6
-    color color-secondary
+    &.space-start
+        justify-content flex-start
+    &.space-end
+        justify-content flex-end
+    &.space-even
+        justify-content space-evenly
+    &.align-center
+        align-items center
+
+    *
+        font-family 'Source Sans Pro', sans-serif
+        font-size text-size-normal
+    h1,h2,h3,h4,h5,h6
+        font-family 'Noto Serif', serif
+    h1
+        font-size text-size-h1
+        color color-secondary
+    h2,h3,h4,h5,h6
+        color color-secondary-darker
+    h2
+        font-size text-size-h2
+    h3
+        font-size text-size-h3
+    h4
+        font-size text-size-h4
+    h5
+        font-size text-size-h5
+    h6
+        font-size text-size-h6
+    h1:first-of-type
+        position absolute
+        top 1rem
+        left 1rem
+
+    hr
+        margin 0.1em auto 0.25em auto
+        padding-top 2px
+        width 90%
+        background-color color-primary
+
+    a
+        color color-primary-darker
+
+    code,code *
+        font-family 'Fira Code', monospace
+    img
+        background transparent
+    footer
+        font-family 'Source Sans Pro', sans-serif
+        font-size text-size-small
+        left 1rem
+        bottom 0.8rem
+
+section.image-fill
+    img:first-of-type
+        position absolute
+        left 50%
+        top 55%
+        height 70%
+        background transparent
+        transform translateX(-50%) translateY(-50%)
+
+section.image-left
+    padding-left calc(50% + 2rem)
+
+    footer
+        left calc(50% + 1rem)
+
+    h1:first-of-type
+        left calc(50% + 1rem)
+
+    img:first-of-type
+        position absolute
+        top 0
+        left 0
+        width 50%
+        max-height 100%
+        object-fit cover
+        object-position center
+
+section.author-page
+    padding-left calc(2rem + 15% + 2rem)
+    justify-content flex-start
+
+    img.profile
+        position absolute
+        top 3em
+        left 0
+        width 15%
+        margin 2rem
+        padding 0.2rem
+        outline solid 2px color-primary
+        border-radius 100vw
 
 section.lead
     background-color color-primary-darker
@@ -25,10 +133,30 @@ section.lead
     padding-left 50%
 
     h1
+        position initial
+        top initial
+        left initial
         font-size 2rem
+        font-weight bold
+        color color-light
+    h2
+        font-size 1.2rem
+        font-weight normal
+        font-family 'Source Sans Pro', sans-serif
         color color-light
 
-    
+        &::before
+            display inline-block
+            padding-right 0.5ch
+            font-size 1.1rem
+            font-weight bold
+            font-family 'Lora', serif
+            color color-secondary-darker
+            content "autor:"
+
+    footer
+        display none
+
     ul.owners
         list-style-type none
         padding-left 0
@@ -36,6 +164,7 @@ section.lead
         li
             text-decoration none
             font-size 1.2rem
+            font-family 'Source Sans Pro', sans-serif
 
         li.removed
             text-decoration line-through
@@ -43,6 +172,9 @@ section.lead
         li::before
             display inline-block
             padding-right 0.5ch
+            font-size 1.1rem
+            font-weight bold
+            font-family 'Lora', serif
             color color-secondary-darker
 
         li[data-author]::before
@@ -55,13 +187,13 @@ section.lead
         display block
         content ""
         position absolute
-        left 10%
+        left 0
         top 50%
-        width 40%
+        width 50%
         aspect-ratio 1 / 1
-        background url(./assets/fidit-logo-light.svg)
+        background url(./assets/logo-light.png)
+        background url(./assets/logo-light.svg)
         background-repeat no-repeat
         background-size contain
+        background-position center center
         transform translateY(-50%)
-
-    
