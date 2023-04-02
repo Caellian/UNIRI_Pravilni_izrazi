@@ -1,37 +1,19 @@
 /* @theme uniri */
 
-color-light = #f7f7f7
-color-dark = #292929
-color-primary = #009ee0
-color-primary-darker = #0082b8
-color-secondary = #173753
-color-secondary-darker = #15324c
-
-border-padding = 1ch
-
-text-size-huge = 2.2em
-text-size-large = 1.2em
-text-size-normal = 1em
-text-size-small = 0.8em
-text-size-tiny = 0.6em
-
-text-size-h1 = text-size-huge
-text-size-h2 = 1.8em
-text-size-h3 = 1.6em
-text-size-h4 = 1.4em
-text-size-h5 = text-size-large
-text-size-h6 = 1.1em
-
 @import-theme 'default'
+@import 'const'
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&display=swap');
 
 section
-    background-color color-light
-    color color-dark
-    padding 4rem 2rem 2.2rem 2rem
+    background-color color-lighter
+    color color-darker
     align-items stretch
     line-height 1.3rem
+
+    --section-pad-left-extra 0%
+    --section-pad-right-extra 0%
+    padding "calc(%s + %s)"%(font-size-h1 spacing-small*2) "calc(var(--section-pad-right-extra) + %s)"%(spacing-large) "calc(%s + %s)"%(font-size-small spacing-small*2) "calc(var(--section-pad-left-extra) + %s)"%(spacing-large)
 
     &.space-start
         justify-content flex-start
@@ -42,11 +24,8 @@ section
     &.align-center
         align-items center
 
-    *
-        font-family 'Source Sans Pro', sans-serif
-        font-size text-size-normal
     h1,h2,h3,h4,h5,h6
-        font-family 'Noto Serif', serif
+        font-family font-family-serif
     h1
         font-size text-size-h1
         color color-secondary
@@ -66,6 +45,15 @@ section
         position absolute
         top 1rem
         left 1rem
+    p,a
+        font-family font-family-sans-serif
+        font-size text-size-normal
+        color color-darker
+    a
+        color color-primary-darker
+
+    li ul, li + li
+        margin-top spacing-tiny
 
     hr
         margin 0.1em auto 0.25em auto
@@ -73,45 +61,42 @@ section
         width 90%
         background-color color-primary
 
-    a
-        color color-primary-darker
-
+    code,:is(pre, marp-pre)
+        background-color white
+        color color-darker
+        font-family font-family-monospace
+        border solid 2px color-primary-darker
+        border-radius spacing-small
+        padding spacing-small
+        max-height 100%
     code,code *
-        font-family 'Fira Code', monospace
+        font-family font-family-monospace
+    code
+        border-radius spacing-tiny
+        padding spacing-tiny
+
+
     img
         background transparent
+    header,footer
+        display block
+        font-family font-family-monospace
+        font-size font-size-tiny
+        color color-light
+    header
+        width "calc(100% - %s)" % (spacing-medium * 2)
+        text-align right
+        top spacing-small
     footer
-        font-family 'Source Sans Pro', sans-serif
-        font-size text-size-small
-        left 1rem
-        bottom 0.8rem
+        bottom spacing-small
 
-section.image-fill
-    img:first-of-type
+    &::after
         position absolute
-        left 50%
-        top 55%
-        height 70%
-        background transparent
-        transform translateX(-50%) translateY(-50%)
-
-section.image-left
-    padding-left calc(50% + 2rem)
-
-    footer
-        left calc(50% + 1rem)
-
-    h1:first-of-type
-        left calc(50% + 1rem)
-
-    img:first-of-type
-        position absolute
-        top 0
-        left 0
-        width 50%
-        max-height 100%
-        object-fit cover
-        object-position center
+        right spacing-medium
+        bottom spacing-small
+        color color-dark
+        font-family font-family-monospace
+        font-size font-size-small
 
 section.author-page
     padding-left calc(2rem + 15% + 2rem)
@@ -129,32 +114,35 @@ section.author-page
 
 section.lead
     background-color color-primary-darker
-    color color-light
+    color color-lighter
     padding-left 50%
 
     h1
         position initial
         top initial
         left initial
-        font-size 2rem
+        font-size font-size-huge
         font-weight bold
-        color color-light
-    h2
-        font-size 1.2rem
+        font-family font-family-serif
+        color color-lighter
+    h2,h3
+        font-size font-size-normal
         font-weight normal
-        font-family 'Source Sans Pro', sans-serif
-        color color-light
+        font-family font-family-sans-serif
+        color color-lighter
 
         &::before
             display inline-block
             padding-right 0.5ch
             font-size 1.1rem
             font-weight bold
-            font-family 'Lora', serif
+            font-family font-family-serif
             color color-secondary-darker
             content "autor:"
+    h3::before
+        content "mentor:"
 
-    footer
+    header,footer,&::after
         display none
 
     ul.owners
@@ -197,3 +185,20 @@ section.lead
         background-size contain
         background-position center center
         transform translateY(-50%)
+
+section.part
+    background-color color-secondary-darker
+    align-items center
+    padding-top "calc(%s + %s)"%(font-size-tiny spacing-small*2)
+
+    h1
+        position initial
+        left initial
+        top initial
+        color color-lighter
+
+    header,footer
+        color color-lighter
+        text-align center
+    &::after
+        display none

@@ -4,9 +4,11 @@
 section {
   background-color: #f7f7f7;
   color: #292929;
-  padding: 4rem 2rem 2.2rem 2rem;
   align-items: stretch;
   line-height: 1.3rem;
+  --section-pad-left-extra: 0%;
+  --section-pad-right-extra: 0%;
+  padding: calc(2.2em + 2ch) calc(var(--section-pad-right-extra) + 2rem) calc(0.8em + 2ch) calc(var(--section-pad-left-extra) + 2rem);
 }
 section.space-start {
   justify-content: flex-start;
@@ -20,10 +22,6 @@ section.space-even {
 section.align-center {
   align-items: center;
 }
-section * {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em;
-}
 section h1,
 section h2,
 section h3,
@@ -33,7 +31,7 @@ section h6 {
   font-family: 'Noto Serif', serif;
 }
 section h1 {
-  font-size: 2.2em;
+  font-size: text-size-h1;
   color: #173753;
 }
 section h2,
@@ -44,24 +42,37 @@ section h6 {
   color: #15324c;
 }
 section h2 {
-  font-size: 1.8em;
+  font-size: text-size-h2;
 }
 section h3 {
-  font-size: 1.6em;
+  font-size: text-size-h3;
 }
 section h4 {
-  font-size: 1.4em;
+  font-size: text-size-h4;
 }
 section h5 {
-  font-size: 1.2em;
+  font-size: text-size-h5;
 }
 section h6 {
-  font-size: 1.1em;
+  font-size: text-size-h6;
 }
 section h1:first-of-type {
   position: absolute;
   top: 1rem;
   left: 1rem;
+}
+section p,
+section a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: text-size-normal;
+  color: #292929;
+}
+section a {
+  color: #0082b8;
+}
+section li ul,
+section li + li {
+  margin-top: 0.4ch;
 }
 section hr {
   margin: 0.1em auto 0.25em auto;
@@ -69,47 +80,50 @@ section hr {
   width: 90%;
   background-color: #009ee0;
 }
-section a {
-  color: #0082b8;
+section code,
+section :is(pre,
+section marp-pre) {
+  background-color: #fff;
+  color: #292929;
+  font-family: 'Fira Code', monospace;
+  border: solid 2px #0082b8;
+  border-radius: 1ch;
+  padding: 1ch;
+  max-height: 100%;
 }
 section code,
 section code * {
   font-family: 'Fira Code', monospace;
 }
+section code {
+  border-radius: 0.4ch;
+  padding: 0.4ch;
+}
 section img {
   background: transparent;
 }
+section header,
 section footer {
-  font-family: 'Source Sans Pro', sans-serif;
+  display: block;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.6em;
+  color: #9a9a9a;
+}
+section header {
+  width: calc(100% - 2rem);
+  text-align: right;
+  top: 1ch;
+}
+section footer {
+  bottom: 1ch;
+}
+section::after {
+  position: absolute;
+  right: 1rem;
+  bottom: 1ch;
+  color: #4b4b4b;
+  font-family: 'Fira Code', monospace;
   font-size: 0.8em;
-  left: 1rem;
-  bottom: 0.8rem;
-}
-section.image-fill img:first-of-type {
-  position: absolute;
-  left: 50%;
-  top: 55%;
-  height: 70%;
-  background: transparent;
-  transform: translateX(-50%) translateY(-50%);
-}
-section.image-left {
-  padding-left: calc(50% + 2rem);
-}
-section.image-left footer {
-  left: calc(50% + 1rem);
-}
-section.image-left h1:first-of-type {
-  left: calc(50% + 1rem);
-}
-section.image-left img:first-of-type {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  max-height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
 section.author-page {
   padding-left: calc(2rem + 15% + 2rem);
@@ -134,26 +148,34 @@ section.lead h1 {
   position: initial;
   top: initial;
   left: initial;
-  font-size: 2rem;
+  font-size: 2.2em;
   font-weight: bold;
+  font-family: 'Noto Serif', serif;
   color: #f7f7f7;
 }
-section.lead h2 {
-  font-size: 1.2rem;
+section.lead h2,
+section.lead h3 {
+  font-size: 1em;
   font-weight: normal;
   font-family: 'Source Sans Pro', sans-serif;
   color: #f7f7f7;
 }
-section.lead h2::before {
+section.lead h2::before,
+section.lead h3::before {
   display: inline-block;
   padding-right: 0.5ch;
   font-size: 1.1rem;
   font-weight: bold;
-  font-family: 'Lora', serif;
+  font-family: 'Noto Serif', serif;
   color: #15324c;
   content: "autor:";
 }
-section.lead footer {
+section.lead h3::before {
+  content: "mentor:";
+}
+section.lead header,
+section.lead footer,
+section.lead::after {
   display: none;
 }
 section.lead ul.owners {
@@ -196,4 +218,23 @@ section.lead::before {
   background-size: contain;
   background-position: center center;
   transform: translateY(-50%);
+}
+section.part {
+  background-color: #15324c;
+  align-items: center;
+  padding-top: calc(0.6em + 2ch);
+}
+section.part h1 {
+  position: initial;
+  left: initial;
+  top: initial;
+  color: #f7f7f7;
+}
+section.part header,
+section.part footer {
+  color: #f7f7f7;
+  text-align: center;
+}
+section.part::after {
+  display: none;
 }

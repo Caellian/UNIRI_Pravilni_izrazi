@@ -1,0 +1,59 @@
+/* @theme tin-uniri-regex-theme */
+
+@import-theme 'uniri'
+@import 'const'
+
+section.use-example
+    display grid
+    grid-template-columns repeat(2, 1fr)
+    grid-template-rows auto 1fr spacing-small 1fr auto
+    grid-column-gap spacing-medium
+    align-items center
+    
+    marp-pre:first-of-type
+        grid-area 1 / 1 / 6 / 2
+    
+    h1:nth-of-type(2),h1:nth-of-type(3)
+        position relative
+        color color-dark
+        font-family font-family-sans-serif
+        font-size font-size-h4
+        text-transform lowercase
+        text-align center
+
+        &::before
+            position absolute
+            left 50%
+            content: ">"
+            font-family font-family-monospace
+
+        + marp-pre
+            display grid
+            align-items center
+            margin 0
+            border-radius 0
+            border-color #9a9a9a
+
+    h1:nth-of-type(2)
+        grid-area 1 / 2 / 2 / 3
+        &::before
+            bottom -1ch
+            transform translateX(-50%) rotate(90deg)
+
+    h1:nth-of-type(3)
+        grid-area 5 / 2 / 6 / 3
+        &::before
+            top -1.3ch
+            transform translateX(-50%) rotate(-90deg)
+
+    h1:nth-of-type(2) + marp-pre
+        grid-area 2 / 2 / 3 / 3
+
+    h1:nth-of-type(3) + marp-pre
+        grid-area 4 / 2 / 5 / 3
+
+section ul li span.float-right.code
+    background white
+    font-family font-family-monospace
+    border-radius spacing-small
+    padding 0 spacing-small

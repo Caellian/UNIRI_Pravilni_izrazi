@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="350pt"
+   height="200pt"
+   viewBox="0 0 124 70.6"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="regex-roots.svg"
+   inkscape:export-xdpi="114"
+   inkscape:export-ydpi="114"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.41"
+     inkscape:cx="143"
+     inkscape:cy="105"
+     inkscape:window-width="1920"
+     inkscape:window-height="1000"
+     inkscape:window-x="0"
+     inkscape:window-y="44"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32,-58.6)">
+    <g
+       id="g10287"
+       transform="translate(10.5,-0.753)">
+      <text
+         xml:space="preserve"
+         style="font-size:6.48425px;line-height:1.25;font-family:sans-serif;stroke-width:0.540354"
+         x="59.3"
+         y="69.6"
+         id="text236"
+         inkscape:export-filename="regex-roots.svg"
+         inkscape:export-xdpi="114"
+         inkscape:export-ydpi="114"><tspan
+           sodipodi:role="line"
+           id="tspan234"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';stroke-width:0.540354"
+           x="59.3"
+           y="69.6"><tspan
+   style="fill:#0082b8;fill-opacity:1;stroke-width:0.540354"
+   id="tspan9523">REG</tspan>ular <tspan
+   style="fill:#0082b8;fill-opacity:1;stroke-width:0.540354"
+   id="tspan9525">EX</tspan>pressions</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.540183px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 60.1,71.9 H 81.6"
+         id="path351" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.538318px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 84.6,71.9 H 118"
+         id="path353" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.48425px;line-height:1.25;font-family:sans-serif;stroke-width:0.540354"
+         x="60.3"
+         y="86.2"
+         id="text465"><tspan
+           sodipodi:role="line"
+           id="tspan463"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';stroke-width:0.540354"
+           x="60.3"
+           y="86.2">reguler</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:6.48425px;line-height:1.25;font-family:sans-serif;stroke-width:0.540354"
+         x="89.6"
+         y="86.2"
+         id="text465-9"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';stroke-width:0.540354"
+           x="89.6"
+           y="86.2"
+           id="tspan5455">expressio</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:6.48425px;line-height:1.25;font-family:sans-serif;stroke-width:0.540354"
+         x="88.6"
+         y="103"
+         id="text465-9-8"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';stroke-width:0.540354"
+           x="88.6"
+           y="103"
+           id="tspan5455-1">exprimere</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:6.48425px;line-height:1.25;font-family:sans-serif;stroke-width:0.540354"
+         x="58.2"
+         y="103"
+         id="text465-6"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';stroke-width:0.540354"
+           x="58.2"
+           y="103"
+           id="tspan3093">regularis</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:6.48425px;line-height:1.25;font-family:sans-serif;stroke-width:0.540354"
+         x="61.7"
+         y="118"
+         id="text465-6-9"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Trebuchet MS';-inkscape-font-specification:'Trebuchet MS';stroke-width:0.540354"
+           x="61.7"
+           y="118"
+           id="tspan3093-4">regula</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.39538px;line-height:1.25;font-family:sans-serif;stroke-width:0.540354"
+         x="62.6"
+         y="123"
+         id="text465-6-9-8"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.39538px;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#202020;fill-opacity:1;stroke-width:0.540354"
+           x="62.6"
+           y="123"
+           id="tspan3093-4-5">pravilo</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:5.39538px;line-height:0.75;font-family:sans-serif;stroke-width:0.540354"
+         x="104"
+         y="108"
+         id="text465-6-9-8-7"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.39538px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;text-anchor:middle;fill:#202020;fill-opacity:1;stroke-width:0.540354"
+           x="104"
+           y="108"
+           id="tspan3093-4-5-6">istisnuti,</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.39538px;font-family:Cantarell;-inkscape-font-specification:Cantarell;text-align:center;text-anchor:middle;fill:#202020;fill-opacity:1;stroke-width:0.540354"
+           x="104"
+           y="112"
+           id="tspan7103">izraziti</tspan></text>
+      <g
+         id="g689-3-9-0"
+         transform="matrix(1.05,0,0,1.05,-14.7,27.5)">
+        <g
+           id="g680-8-6-4"
+           style="fill:#132e44;fill-opacity:1">
+          <rect
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.57553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             id="rect529-5-4-8"
+             width="11"
+             height="3.58"
+             x="54.9"
+             y="82.7" />
+          <path
+             id="path583-6-3-8"
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.39514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             d="m 56.7,84.5 a 1.79,1.79 0 0 1 -1.8,1.8 1.79,1.79 0 0 1 -1.8,-1.8 1.79,1.79 0 0 1 1.8,-1.8 1.79,1.79 0 0 1 1.8,1.8 z" />
+          <path
+             id="path583-9-11-33-8"
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.39514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             d="m 67.7,84.5 a 1.79,1.79 0 0 1 -1.8,1.8 1.79,1.79 0 0 1 -1.8,-1.8 1.79,1.79 0 0 1 1.8,-1.8 1.79,1.79 0 0 1 1.8,1.8 z" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.18px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff;fill-opacity:1;stroke-width:0.265"
+           x="55.6"
+           y="85.7"
+           id="text473-59-8-9"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff;fill-opacity:1;stroke-width:0.265"
+             x="55.6"
+             y="85.7"
+             id="tspan475-84-6-7">latinski</tspan></text>
+      </g>
+      <g
+         id="g689-3-9-0-6"
+         transform="matrix(1.05,0,0,1.05,-14.7,12.5)">
+        <g
+           id="g680-8-6-4-4"
+           style="fill:#132e44;fill-opacity:1">
+          <rect
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.57553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             id="rect529-5-4-8-3"
+             width="11"
+             height="3.58"
+             x="54.9"
+             y="82.7" />
+          <path
+             id="path583-6-3-8-0"
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.39514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             d="m 56.7,84.5 a 1.79,1.79 0 0 1 -1.8,1.8 1.79,1.79 0 0 1 -1.8,-1.8 1.79,1.79 0 0 1 1.8,-1.8 1.79,1.79 0 0 1 1.8,1.8 z" />
+          <path
+             id="path583-9-11-33-8-3"
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.39514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             d="m 67.7,84.5 a 1.79,1.79 0 0 1 -1.8,1.8 1.79,1.79 0 0 1 -1.8,-1.8 1.79,1.79 0 0 1 1.8,-1.8 1.79,1.79 0 0 1 1.8,1.8 z" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.18px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff;fill-opacity:1;stroke-width:0.265"
+           x="55.6"
+           y="85.7"
+           id="text473-59-8-9-0"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff;fill-opacity:1;stroke-width:0.265"
+             x="55.6"
+             y="85.7"
+             id="tspan475-84-6-7-9">latinski</tspan></text>
+      </g>
+      <g
+         id="g689-3-9-0-6-2"
+         transform="matrix(1.05,0,0,1.05,65.2,12.6)">
+        <g
+           id="g680-8-6-4-4-5"
+           style="fill:#132e44;fill-opacity:1">
+          <rect
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.57553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             id="rect529-5-4-8-3-4"
+             width="11"
+             height="3.58"
+             x="54.9"
+             y="82.7" />
+          <path
+             id="path583-6-3-8-0-0"
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.39514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             d="m 56.7,84.5 a 1.79,1.79 0 0 1 -1.8,1.8 1.79,1.79 0 0 1 -1.8,-1.8 1.79,1.79 0 0 1 1.8,-1.8 1.79,1.79 0 0 1 1.8,1.8 z" />
+          <path
+             id="path583-9-11-33-8-3-5"
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.39514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             d="m 67.7,84.5 a 1.79,1.79 0 0 1 -1.8,1.8 1.79,1.79 0 0 1 -1.8,-1.8 1.79,1.79 0 0 1 1.8,-1.8 1.79,1.79 0 0 1 1.8,1.8 z" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.18px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff;fill-opacity:1;stroke-width:0.265"
+           x="55.6"
+           y="85.7"
+           id="text473-59-8-9-0-9"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff;fill-opacity:1;stroke-width:0.265"
+             x="55.6"
+             y="85.7"
+             id="tspan475-84-6-7-9-4">latinski</tspan></text>
+      </g>
+      <g
+         id="g689-3-9-0-6-2-6"
+         transform="matrix(1.05,0,0,1.05,65.2,-4.2)">
+        <g
+           id="g680-8-6-4-4-5-9"
+           style="fill:#132e44;fill-opacity:1">
+          <rect
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.57553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             id="rect529-5-4-8-3-4-2"
+             width="11"
+             height="3.58"
+             x="54.9"
+             y="82.7" />
+          <path
+             id="path583-6-3-8-0-0-2"
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.39514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             d="m 56.7,84.5 a 1.79,1.79 0 0 1 -1.8,1.8 1.79,1.79 0 0 1 -1.8,-1.8 1.79,1.79 0 0 1 1.8,-1.8 1.79,1.79 0 0 1 1.8,1.8 z" />
+          <path
+             id="path583-9-11-33-8-3-5-4"
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.39514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             d="m 67.7,84.5 a 1.79,1.79 0 0 1 -1.8,1.8 1.79,1.79 0 0 1 -1.8,-1.8 1.79,1.79 0 0 1 1.8,-1.8 1.79,1.79 0 0 1 1.8,1.8 z" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.18px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff;fill-opacity:1;stroke-width:0.265"
+           x="55.6"
+           y="85.7"
+           id="text473-59-8-9-0-9-7"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff;fill-opacity:1;stroke-width:0.265"
+             x="55.6"
+             y="85.7"
+             id="tspan475-84-6-7-9-4-7">latinski</tspan></text>
+      </g>
+      <g
+         id="g689-1"
+         transform="matrix(1.05,0,0,1.05,-18.6,-3.77)">
+        <g
+           id="g680-7"
+           style="fill:#132e44;fill-opacity:1"
+           transform="translate(-6.06,-0.453)">
+          <rect
+             style="fill:#132e44;fill-opacity:1;stroke-width:2.17161;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             id="rect529-7"
+             width="20.8"
+             height="3.58"
+             x="54.9"
+             y="82.7" />
+          <path
+             id="path583-1"
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.39514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             d="m 56.7,84.5 a 1.79,1.79 0 0 1 -1.8,1.8 1.79,1.79 0 0 1 -1.8,-1.8 1.79,1.79 0 0 1 1.8,-1.8 1.79,1.79 0 0 1 1.8,1.8 z" />
+          <path
+             id="path583-9-1"
+             style="fill:#132e44;fill-opacity:1;stroke-width:1.39514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2;paint-order:stroke fill markers"
+             d="m 77.5,84.5 a 1.79,1.79 0 0 1 -1.8,1.8 1.79,1.79 0 0 1 -1.8,-1.8 1.79,1.79 0 0 1 1.8,-1.8 1.79,1.79 0 0 1 1.8,1.8 z" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.18px;line-height:1.25;font-family:Cantarell;-inkscape-font-specification:Cantarell;stroke-width:0.265"
+           x="49.4"
+           y="85.2"
+           id="text473-5"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#ffffff;fill-opacity:1;stroke-width:0.265"
+             x="49.4"
+             y="85.2"
+             id="tspan475-7">stari francuski</tspan></text>
+      </g>
+      <g
+         id="g7207"
+         transform="matrix(2.03,0,0,2.03,-88.5,-72.9)">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+           d="m 77.8,74.3 h 0.8 l -0.4,1 z"
+           id="path7105"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.192378;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="M 78.2,74.8 V 72"
+           id="path7203" />
+      </g>
+      <g
+         id="g7207-3"
+         transform="matrix(2.03,0,0,2.03,-88.5,-56.5)">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+           d="m 77.8,74.3 h 0.8 l -0.4,1 z"
+           id="path7105-1"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 78.2,74.8 v -3"
+           id="path7203-7" />
+      </g>
+      <g
+         id="g7207-3-5"
+         transform="matrix(2.03,0,0,2.03,-88.5,-40.9)">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+           d="m 77.8,74.3 h 0.8 l -0.4,1 z"
+           id="path7105-1-9"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 78.2,74.8 v -3"
+           id="path7203-7-6" />
+      </g>
+      <g
+         id="g7207-3-2"
+         transform="matrix(2.03,0,0,2.03,-55.9,-72.9)">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+           d="m 77.8,74.3 h 0.8 l -0.4,1 z"
+           id="path7105-1-1"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.193526;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="M 78.2,74.8 V 72"
+           id="path7203-7-7" />
+      </g>
+      <g
+         id="g7207-3-2-8"
+         transform="matrix(2.03,0,0,2.03,-55.9,-56.8)"
+         inkscape:export-filename="regex-roots.svg"
+         inkscape:export-xdpi="114"
+         inkscape:export-ydpi="114">
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.265px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+           d="m 77.8,74.3 h 0.8 l -0.4,1 z"
+           id="path7105-1-1-5"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+           d="m 78.2,74.8 v -3"
+           id="path7203-7-7-7" />
+      </g>
+    </g>
+  </g>
+</svg>
